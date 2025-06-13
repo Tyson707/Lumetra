@@ -1,1 +1,129 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio van Tyson Lawtan</title>
+    <link rel="stylesheet" href="launch-it.css">
+</head>
+<body>
+  <div class="container">
+      <nav>
+        <img src="c:\Users\Tyson\Downloads\Tyson (1).png" class="logo">
+       <ul>
+        <li><a href="file:///C:/Users/211191/Downloads/1.html">Home</a></li>
+        <li><a href="file:///C:/Users/211191/Downloads/Link%20pagina%201.html">Wie ben ik</a></li>
+        <li><a href="file:///D:/Computer/Downloads/HTML%20CURSUS/Link%20pagina%201.html">Diensten</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvrcSRvBGmwrXkwqxcncJllqxWhZPsslcmpcfcnljPNxMDBrPRnDXTKfpbrKDLzWWNJPXB">Contact</a></li>
+     
+        
+      </ul>
+    </nav>
+    <div class="header-text">
+        <p class="R1">''School student''</p>
+        <h1>Hallo, ik ben<span> Tyson</span><br>Welkom op mijn<span><em> portfolio</em></span></h1><h1></h1>
+    </div>
+  </div>
+</div>
+<!-- ------about------ -->  
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="c:\Users\Tyson\Downloads\IMGP1800.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Meer over mij</h1>
+                
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est nostrum explicabo cum deleniti corrupti. Quam similique quibusdam facere quasi aliquid, ad debitis adipisci eos repudiandae officia harum non doloremqueLorem, ipsum dolor sit amet consectetur adipisicing elit. Est nostrum explicabo cum deleniti corrupti. Quam similique quibusdam facere quasi aliquid, ad debitis adipisci eos repudiandae officia harum non doloremque</p>
+
+
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Ervaring</p>
+                        <p class="tab-links" onclick="opentab('Education')">Educatie</p>
+                      </div>
+                      <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Excel</span><br>Lijsten maken</li>
+                            <li><span>Designing</span><br>Website layouts</li>
+                            <li><span>Schoonmaken van</span><br>Appartementen</li>
+                            <li><span> Mini ICT</span><br>Mensen helpen<br>HTML,CSS</li>
+                            
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024 - Huidig</span><br>Werkend bij HQ-Mobile</li>
+                            <li><span>2024</span><br>Gewerkt bij Jumbo</li>
+                            <li><span>2023</span><br>Gewerkt bij Homestation</li>
+                            <li><span>2023</span><br>Gewerkt bij JHC woningontruiming</li>
+                            <li><span>2023</span><br>Gewerkt bij Albert Heijn</li>
+                            <li><span>2024</span><br>Stage bij Hedin Automotive</li>
+                            <li><span>2023</span><br>Stage bij RepairHouse</li>
+                            <li><span>2022</span><br>Stage bij Coen Car Sales</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Roc ter aa</span><br>Expert ICT (huidg)</li>
+                            <li><span>SG Were Di</span><br>4 jaar</li>
+                            <li><span>SBO de Zonneijzer</span><br>8 jaar</li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+ 
+    function opentab(tabname){
+      for(tablink of tablinks){
+          tablink.classList.remove('active-link');
+      }
+      for(tabcontent of tabcontents){
+         tabcontent.classList.remove('active-tab');
+      }
+      event.currentTarget.classList.add('active-link');
+      document.getElementById(tabname).classList.add('active-tab');
+    }
+ </script>
+ 
+ <center>
+<div class="rectangle"></div>
+
+
+ </div>
+ 
+<div class="rectangle1">
+    <div class="textfooter">
+        <h2>Contact informatie</h2>
+        </div>
+        <div class="Extra">
+<h4>Email: Tysonlawtan7@gmail.com</h4>
+        </div>
+         <div class="Extrab">
+<h4>Linkedin:</h4> 
+        </div>
+    <div class="link">
+        <h4><a class="linkedit" href="https://www.linkedin.com/in/tyson-lawtan-a7357b332/">www.linkedin.com/in/tyson-lawtan-a7357b332/</a></h4>
+    </div>
+
+     <div class="Extrabc">
+<h4>Auteur: Tyson lawtan</h4> 
+        </div>
+
+
+
+    </div>
+    
+</div>  
+</div>
+</body>
+</html>
